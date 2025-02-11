@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Question from "./Question";
 import Modal from "./Modal";
+import HeartParticles from "./HeartParticles";
 
 export default function App() {
 	const [answers, setAnswers] = useState({ });
@@ -40,6 +41,7 @@ export default function App() {
 		<>
 			<section className=" w-full h-full bg-cover bg-center bg-no-repeat bg-rose-200 bg-[url(./assets/background.png)] relative">
 				<div className="max-w-3xl mx-auto px-6 py-12 flex flex-col items-center justify-center gap-6">
+				<HeartParticles />
 					<h1 className="text-3xl font-vibes text-gray-800">
 						¡Hola Liz!
 					</h1>
