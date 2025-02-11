@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import '@fontsource/great-vibes';
+@import '@fontsource/quicksand';
+
+
+@theme {
+  --font-vibes: 'Great Vibes', cursive;
+  --font-Quicksand: 'Quicksand', sans-serif;
+}
