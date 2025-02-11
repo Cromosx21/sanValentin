@@ -39,7 +39,7 @@ export default function Pregunta() {
 				<img
 					src={MiOsito}
 					alt="Osito Gift"
-					className="max-w-md mx-auto w-full"
+					className="max-w-md mx-auto w-full aspect-square"
 				/>
 				<div className="flex flex-col gap-4 items-center justify-evenly">
 					<button
@@ -49,7 +49,10 @@ export default function Pregunta() {
 					>
 						{message[step]}
 					</button>
-					<button className="border-2 border-rose-600 rounded-lg px-8 py-3 font-Quicksand font-bold bg-rose-600 text-rose-50" onClick={handleClick}>
+					<button
+						className="border-2 border-rose-600 rounded-lg px-8 py-3 font-Quicksand font-bold bg-rose-600 text-rose-50"
+						onClick={handleClick}
+					>
 						¡Sí, obvio!
 					</button>
 				</div>

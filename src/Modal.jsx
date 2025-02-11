@@ -18,7 +18,7 @@ export default function Modal() {
 					Ahora ya se un poco más sobre tu lado romántico Pero falta
 					la pregunta más importante...
 				</p>
-				<img src={Osito1} alt="Osito gif" className="max-w-sm w-full mx-auto" />
+				<img src={Osito1} alt="Osito gif" className="max-w-sm w-full mx-auto aspect-square" />
 				<button
 					onClick={handleClick}
 					className="bg-rose-600 text-rose-50 px-6 py-3 rounded-lg block font-Quicksand font-bold text-xl hover:bg-rose-500 transition-all"
